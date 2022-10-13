@@ -18,3 +18,12 @@ total_summary <- SuspensionCoil_df %>% summarize(Mean=mean(PSI),Median=median(PS
 
 lot_summary <- SuspensionCoil_df %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI), Variance=var(PSI), SD=sd(PSI))
 
+# DELIVERABLE 3
+
+library(tidyverse)
+
+t.test(SuspensionCoil_df$PSI, mu=1500)
+
+t.test(subset(SuspensionCoil_df$PSI, SuspensionCoil_df$Manufacturing_Lot=="Lot1"),mu=1500)
+t.test(subset(SuspensionCoil_df$PSI, SuspensionCoil_df$Manufacturing_Lot=="Lot2"),mu=1500)
+t.test(subset(SuspensionCoil_df$PSI, SuspensionCoil_df$Manufacturing_Lot=="Lot3"),mu=1500)
