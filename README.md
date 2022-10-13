@@ -28,5 +28,23 @@ For all manufacturing lots in total, the data meet this design especification, b
 
 ![image](https://user-images.githubusercontent.com/108365182/195616534-a046ec46-4583-4e5f-ac90-8fba2d76829c.png)
 ### Lot Summary 
+
 ![image](https://user-images.githubusercontent.com/108365182/195616705-a8516906-40d7-468d-8231-9f1f2d4c6854.png)
+
+## Study Design: MechaCar vs Competition
+
+According to our T-test PSI across all manufacturing lots, we can conclude that there is  statistical difference between the mean of the sample and the population mean of 1,500 pounds per square inch, taking us to accept the alternative hypothesis, this, because the value of our p-value=0.06028 is smaller than our significance level. 
+
+Also, based on our T-test PSI for each manufactoring lot, we can conclude that in Lot 3 there is statistical difference between the mean of the sample and the population mean of 1,500 pounds per square inch, taking us to accept the alternative hypothesis, just as the t-test of PSI across all manufacturing lots, this, because our p-value which is 0.04168 is smaller than the significance level. However, in Lot 1 and 2 we can conclude that there is no statistical difference between the mean of the sample and the population mean of 1,500 pounds per square inch to reject our null hypothesis.
+
+### T-test PSI across all manufacturing lots
+
+![image](https://user-images.githubusercontent.com/108365182/195629703-79b4bb1f-59e1-4033-aff8-b3e0dc9eca1a.png)
+
+
+### T-test PSI for each manufacturing lot
+
+![image](https://user-images.githubusercontent.com/108365182/195627886-72845749-301f-4e9a-9048-34b013a96c4a.png)
+
+
 
