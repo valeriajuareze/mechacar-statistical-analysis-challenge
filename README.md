@@ -31,7 +31,7 @@ For all manufacturing lots in total, the data meet this design especification, b
 
 ![image](https://user-images.githubusercontent.com/108365182/195616705-a8516906-40d7-468d-8231-9f1f2d4c6854.png)
 
-## Study Design: MechaCar vs Competition
+## T-Tests on Suspension Coils
 
 According to our T-test PSI across all manufacturing lots, we can conclude that there is  statistical difference between the mean of the sample and the population mean of 1,500 pounds per square inch, taking us to accept the alternative hypothesis, this, because the value of our p-value=0.06028 is smaller than our significance level. 
 
