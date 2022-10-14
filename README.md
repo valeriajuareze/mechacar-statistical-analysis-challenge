@@ -46,5 +46,14 @@ Also, based on our T-test PSI for each manufactoring lot, we can conclude that i
 
 ![image](https://user-images.githubusercontent.com/108365182/195627886-72845749-301f-4e9a-9048-34b013a96c4a.png)
 
+## Study Design: MechaCar vs Competition
 
+The description of a statistical study that can quantify how the MechaCar performs againts the competition is the following one:
 
+- First, the metric that I suggest testing is the cost, this, because according to different people, the most importante thing to consider when buying a car is its price.
+
+- Then , the null hypothesis will be: There is no difference between the price means of car lots. Contrary to the alternative hypothesis, which is: At least one price mean of a car lot is different.  
+
+- After that, the statistical test that I recommend to test the hypothesis is the ANOVA one, beacuse it compares the means of more than two samples groups, which fits perfectly in our case. 
+
+- Finally, the data needed to run the statistical test is the price of each car in each lot and the sales in the last six months.
